@@ -1,0 +1,57 @@
+table {
+  width: 100%;
+}
+
+thead {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+th {
+  padding: 10px;
+  font-weight: 500;
+  color: #222;
+}
+
+tr {
+  background: rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.tongTien {
+  background: rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid #aaaaaa;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  color: #222;
+}
+
+.listDatVe {
+  height: 407px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #eee;
+}
+
+.btnHuy {
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btnHuy:hover {
+    color: #DA2D40;
+}
